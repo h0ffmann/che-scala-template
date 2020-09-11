@@ -1,0 +1,7 @@
+target
+.vscode
+.metals
+.bloop
+project/metals.sbt
+idea-bloop.sbt
+.theia
