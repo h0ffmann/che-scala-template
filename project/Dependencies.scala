@@ -9,7 +9,7 @@ object Dependencies {
 
   }
 
-  val console4cats = "dev.profunktor" %% "console4cats" % Versions.console4cats
-  val scalaTest = "org.scalatest" %% "scalatest" % Versions.scalaTest
+  val console4cats = "dev.profunktor" %% "console4cats" % Versions.console4cats withSources()
+  val scalaTest = "org.scalatest" %% "scalatest" % Versions.scalaTest withSources()
 
 }
